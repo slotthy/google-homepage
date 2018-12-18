@@ -1,0 +1,268 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color: #3c3c3c;
+}
+
+#search-bar {
+    width: 420px;
+    border: none;
+    background-color: #000000eb;
+    outline: none;
+    font-size: 16px;
+    color: #e20000d4;
+}
+
+#form-bar {
+    width: 500px;
+    font-size: 16px;
+    height: 33px;
+    left: 10px;
+    display: flex;
+    background-color: #000000eb;
+    padding: 5px;
+    margin-top: 10px;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.16), 0px 0px 0px 1px rgba(0, 0, 0, 0.8);
+}
+
+#microphone {
+    width: 17px;
+    height: 25px;
+    align-self: center;
+    margin-left: 80px;
+}
+
+#logo-two {
+    width: 120px;
+    height: 54px;
+    position: relative;
+    padding-bottom: 18px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+#nav-header {
+    height: 105px;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    display: flex;
+    position: absolute;
+    background-color: #3c3c3c;
+}
+
+#googlesearch {
+    width: 18px;
+    font-size: 18px;
+    align-self: center;
+    margin-left: 25px;
+    padding-right: 10px;
+    position: relative;
+    color: #520000;
+}
+
+#rightSide {
+    margin: 0px 28px 0 0;
+    display: block;
+    position: absolute;
+    right: 0;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 25px;
+    margin-top: 15px;
+}
+
+#grid {
+    color: #e4e4e4;
+    font-size: 20px;
+    padding-left: 15px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+#bell {
+    color: #e4e4e4;
+    font-size: 20px;
+    padding-left: 15px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+#bell:hover, #grid:hover {
+    color: #000000;
+    opacity: 1;
+}
+
+#google-image {
+    height: 32px;
+    background-size: 32px 32px;
+    width: 32px;
+    border-radius: 50%;
+    left: 17px;
+    position: relative;
+    cursor: pointer;
+    top: -7px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    padding-left: 15px;
+}
+
+.activelink {
+    border-bottom: 3px solid #520000;
+    color: #520000;
+    font-weight: bold;
+}
+
+.search-items {
+    padding: 10px;
+}
+
+#search-links {
+    position: relative;
+    display: flex;
+    font-size: 13px;
+    opacity: 0.7;
+    margin-left: 150px;
+}
+
+#bottom-row {
+    margin-top: 88px;
+    position: relative;
+    display: flex;
+    font-size: 13px;
+}
+
+#right-links {
+    font-size: 13px;
+    position: relative;
+    margin-left: 150px;
+    opacity: 0.7;
+    display: flex;
+}
+
+.results {
+    color: #808080;
+    font-size: 12px;
+    line-height: 40px;
+    margin-left: 165px;
+    padding-top: 0;
+}
+
+#firstresult {
+    border: solid 1px rgba(0, 0, 0, 0.13);
+    width: 500px;
+    left: -6px;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+.one-result {
+    position: relative;
+    display: block;
+    width: 500px;
+    padding: 20px;
+}
+
+.allresults {
+    margin-left: 165px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.one-result {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.link-heading {
+    color: #00ff0ce7;
+    font-size: 18px;
+}
+
+.websitelink {
+    display: inline-block;
+    font-size: 14px;
+    padding-top: 1px;
+    width: 200px;
+    position: relative;
+    color: #000000;
+}
+
+.link-text {
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.othersearches {
+    display: inline-block;
+    font-size: 14px;
+    padding-top: 1px;
+    position: relative;
+    line-height: 22px;
+    color: #005704e7;
+}
+
+#searchingresults {
+    font-size: 16px;
+    color: #005704e7;
+    list-style: none;
+    width: 500px;
+    columns: 2;
+    margin-left: -19px;
+    padding-bottom: 30px;
+}
+
+li {
+    left: 0;
+    padding-bottom: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    margin-left: -165px;
+    height: 50px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: relative;
+    background-color: #2e2e2e;
+}
+
+#footing {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    right: 0;
+    top: 17px;
+}
+
+#footleft {
+    position: absolute;
+    text-decoration: none;
+    font-size: 13px;
+    display: flex;
+    padding-left: 25px;
+}
+
+#footright {
+    position: absolute;
+    text-decoration: none;
+    font-size: 13px;
+    display: flex;
+    padding-right: 25px;
+    right: 0;
+}
+
+#navigation {
+    width: 350px;
+    margin-left: 240px;
+}
